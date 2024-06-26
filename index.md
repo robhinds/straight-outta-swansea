@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'But when I come back, boy, I'm comin''' straight outta Swansea'
+landing-title: "But when I come back, boy, I\'m comin\' straight outta Swansea"
 description: null
 image: null
 author: null
