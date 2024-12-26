@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'But when I come back, boy, I''m comin'' straight outta Swansea'
+landing-title: 'Oh, sorry I lied, I''m SA1, 2, 3, 4 and 5'
 description: null
 image: null
 author: null
