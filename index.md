@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Oh, sorry I lied, I''m SA1, 2, 3, 4 and 5'
+landing-title: 'uh, I''m sorry, I lied, I''m SA1, two, three, four and five'
 description: null
 image: null
 author: null
