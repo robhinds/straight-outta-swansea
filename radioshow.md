@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Radio show
 image: assets/images/pic12.jpg
 nav-menu: true
