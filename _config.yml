@@ -2,7 +2,7 @@
 title: Straight Outta
 subtitle: Swansea
 email: youremailaddress@gmail.com
-description: KRS-1 - The five boroughs..
+description: KRS-1 - The five boroughs.. (sort of)
 baseurl: "/straight-outta-swansea" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
@@ -29,4 +29,4 @@ exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
