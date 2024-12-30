@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Radio show
-image: assets/images/pic01.jpg
+image: assets/images/pic12.jpg
 nav-menu: true
 ---
 
