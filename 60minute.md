@@ -1,6 +1,7 @@
 ---
 layout: page
-title: What the flip?! 60 minute beat challenge
+title: Beats me
+description: 60 minute beat challenge
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
