@@ -6,6 +6,6 @@ image: assets/images/pic01.jpg
 nav-menu: true
 ---
 
-Monthly radio show - Listen now!
+Weekly 60 minute beat challenge for 2025
 
 https://www.mixcloud.com/straightouttaswansea/
