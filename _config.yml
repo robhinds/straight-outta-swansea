@@ -17,7 +17,8 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   Instagram: https://www.instagram.com/straightouttaswansea/
-  Soundcloud: https://www.mixcloud.com/straightouttaswansea/
+  Soundcloud: https://soundcloud.com/rob-hinds
+  Mixcloud: https://www.mixcloud.com/straightouttaswansea/
 
 # build settings
 markdown: kramdown
