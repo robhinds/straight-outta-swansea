@@ -23,6 +23,14 @@ socials:
 # build settings
 markdown: kramdown
 
+# pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 sass:
   style: compressed
 
@@ -31,3 +39,7 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md
+
+# pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
