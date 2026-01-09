@@ -23,9 +23,9 @@ socials:
 # build settings
 markdown: kramdown
 
-# pagination
-paginate: 5
-paginate_path: "/blog/page:num/"
+plugins:
+  - jekyll-paginate
+  - jekyll-timeago
 
 # pagination
 paginate: 5
@@ -39,7 +39,3 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md
-
-# pagination
-paginate: 5
-paginate_path: "/blog/page:num/"
