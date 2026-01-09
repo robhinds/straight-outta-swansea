@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ page.description }}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        <section id="one" class="tiles">
+            {% for post in paginator.posts %}
+            <article>
+                <span class="image">
+                    <img src="{{ post.image | relative_url }}" alt="" />
+                </span>
+                <header class="major">
+                    <h3><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h3>
+                    <p>{{ post.date | date: "%b %d, %Y" }}</p>
+                </header>
+            </article>
+            {% endfor %}
+        </section>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+            {% else %}
+            <span class="previous disabled">Previous</span>
+            {% endif %}
+
+            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+            {% else %}
+            <span class="next disabled">Next</span>
+            {% endif %}
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
